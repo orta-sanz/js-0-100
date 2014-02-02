@@ -1,6 +1,11 @@
 JavaScript de 0 a 100
 =====================
 
+Transparencias
+--------------
+
+* [Sesión #1: Introducción - Betabeers III 31/01/14](https://rawgithub.com/NaxYo/js-0-100/master/transparencias/1-intro/index.html "Transparencias de la primer sesión del taller")
+
 Repositorio de ejercicios
 -------------------------
 
