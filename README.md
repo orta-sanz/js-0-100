@@ -11,6 +11,11 @@ Repositorio de ejercicios
 
 Este repositorio pretende ser un punto de partida en el cual ir planteando ejercicios y soluciones relacionados con los diferentes temas que vayamos desarrollando en el taller de Betabeers Huelva.
 
+**Listado de ejercicios:**
+
+* [Sesión #1: Introducción - Moverse por el DOM](https://github.com/NaxYo/js-0-100/tree/master/1-intro/dom "Ejercicio de la primer sesión: moverse por el dom")
+
+
 ### Estructura
 
 Los ejercicios se agrupan en diferentes directorios, numerados en base a la sesión a la que se corresponden, aunque siempre se intentará incluir algo de los contenidos a tratar en la siguiente sesión.
