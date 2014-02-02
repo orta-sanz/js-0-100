@@ -33,5 +33,5 @@ Como explicamos en la raiz de este repositorio puedes hacerlo de muchas maneras:
 
 ### WTF?
 
-La estructura inicial de js/ejercicio.js responde a un patrón para evitar la contaminación del ambito global, de manera que solo sea visible la función EJERCICIO, la cual al ejecutarla se encarga de llamar a las otras tres.
+La estructura inicial de js/ejercicio.js responde a un patrón para evitar la contaminación del ambito global, de manera que solo sea visible la función EJERCICIO, la cual al ser ejecutada se encarga de llamar a las otras tres.
 Esta y otras prácticas se discutirán en la próxima edición del taller.
