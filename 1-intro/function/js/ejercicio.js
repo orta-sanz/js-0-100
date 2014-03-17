@@ -22,6 +22,7 @@ var EJERCICIO = (function() {
 	}
 
 	// 4. Incluye una linea para llamar a la función tapaDeAPoco cada 1/4 de segundo
+	setInterval(tapaDeAPoco, 250);
 
 	return function() {
 		/*
@@ -32,6 +33,27 @@ var EJERCICIO = (function() {
 		 *
 		 * 3. Dibuja cada circulo en un color aleatorio
 		 */
+
+		 function rnd(mult)
+		 {
+		 	return parseInt(Math.random() * mult);
+		 }
+
+
+		 if(arguments.length > 0) {
+			 for(var i = 0; i < arguments.length;i++)
+			 {
+			 	dibujaCirculo.apply(this, arguments[i]);
+			 }
+		}
+		else
+		{
+			var iteraciones = rnd(10);
+			for (var i = 0; i < iteraciones; i++) {
+				dibujaCirculo.call(this, rnd(400), rnd(200), rnd(50), { r: rnd(255), g: rnd(255), b: rnd(255) });
+			};
+		}
+
 	};
 })();
 
