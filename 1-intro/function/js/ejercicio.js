@@ -22,6 +22,11 @@ var EJERCICIO = (function() {
 	}
 
 	// 4. Incluye una linea para llamar a la función tapaDeAPoco cada 1/4 de segundo
+	setInterval(tapaDeAPoco, 250);
+
+	function rnd(mult) {
+		return Math.floor(Math.random() * mult);
+	}
 
 	return function() {
 		/*
@@ -32,6 +37,14 @@ var EJERCICIO = (function() {
 		 *
 		 * 3. Dibuja cada circulo en un color aleatorio
 		 */
+
+		if(arguments.length > 0)
+			 for(var i = 0; i < arguments.length;i++)
+			 	dibujaCirculo.apply(this, arguments[i]);
+		else
+			for (var i = rnd(10); i > 0; i--)
+				dibujaCirculo(rnd(400), rnd(200), rnd(50), { r: rnd(255), g: rnd(255), b: rnd(255) });
+
 	};
 })();
 
