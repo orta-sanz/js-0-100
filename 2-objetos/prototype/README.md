@@ -14,7 +14,7 @@ El ejercicio constará de dos partes:
 
 2. Modificar este archivo (README.md) en el siguiente apartado, explicando por qué hacer este tipo de cambios es una mala práctica.
 
-### ¿Por qué este tipo de cambios es una mala práctica
+### ¿Por qué este tipo de implementaciones es una mala práctica?
 
 
 ### ¿Cómo?
