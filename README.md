@@ -14,9 +14,9 @@ Este repositorio pretende ser un punto de partida en el cual ir planteando ejerc
 
 **Listado de ejercicios:**
 
-* [Sesión #1: Introducción - Moverse por el DOM](./tree/master/1-intro/dom "Ejercicio de la primer sesión: moverse por el dom")
-* [Sesión #1: Introducción - Ambito de variables y funciones anónimas](./tree/master/1-intro/scope "Ejercicio de la primer sesión: ambito de variables y funciones anónimas")
-* [Sesión #1: Introducción - Funciones, parámetros y más](./tree/master/1-intro/function "Ejercicio de la primer sesión: funciones, parámetros y más")
+* [Sesión #1: Introducción - Moverse por el DOM](https://github.com/NaxYo/js-0-100/tree/master/1-intro/dom "Ejercicio de la primer sesión: moverse por el dom")
+* [Sesión #1: Introducción - Ambito de variables y funciones anónimas](https://github.com/NaxYo/js-0-100/tree/master/1-intro/scope "Ejercicio de la primer sesión: ambito de variables y funciones anónimas")
+* [Sesión #1: Introducción - Funciones, parámetros y más](https://github.com/NaxYo/js-0-100/tree/master/1-intro/function "Ejercicio de la primer sesión: funciones, parámetros y más")
 
 ### Estructura
 
