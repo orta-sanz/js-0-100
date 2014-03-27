@@ -2,13 +2,19 @@ function EJERCICIO() {
 	var funciones = [];
 	var salida = document.getElementById('salida');
 
-	while (funciones.length <= 10) {
-		funciones.push(function (numero){
-			salida.innerHTML += numero + ' ';
-		});
+	var fun = function(iAhora) {
+		return function() {
+			salida.innerHTML = salida.innerHTML + iAhora + '&nbsp;';
+		};
+	};
+		
+	for(var i=1; i<=10; i++) {
+		var funcionConVariableCorrecta = fun(i);
+		funciones.push(funcionConVariableCorrecta);
 	}
 
-	for(var i = 1; i < funciones.length; i++){
-		funciones[i](i);
+	salida.innerText = '';
+	for(var f in funciones) {
+		funciones[f]();
 	}
 }
