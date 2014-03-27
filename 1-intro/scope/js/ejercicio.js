@@ -8,7 +8,7 @@ function EJERCICIO() {
 		});
 	}
 
-	salida.innerText = '';
-	for(var f in funciones)
-		funciones[f]();
+	for(var i = 1; i < funciones.length; i++){
+		funciones[i](i);
+	}
 }
