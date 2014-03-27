@@ -4,7 +4,12 @@ var EJERCICIO = (function() {
 	var width   = canvas.offsetWidth;
 	var context = canvas.getContext('2d');
 
+	function aleatorio(maximo) {
+		return Math.round(Math.random() * (maximo));
+	}
+
 	function tapaDeAPoco() {
+		//console.log(color().r);
 		context.beginPath();
 		context.rect(0, 0, width, height);
 		context.fillStyle = 'rgba(255, 255, 255, .1)';
@@ -21,7 +26,7 @@ var EJERCICIO = (function() {
 		context.fill();
 	}
 
-	// 4. Incluye una linea para llamar a la función tapaDeAPoco cada 1/4 de segundo
+	setInterval(tapaDeAPoco, 250);
 
 	return function() {
 		/*
@@ -32,6 +37,30 @@ var EJERCICIO = (function() {
 		 *
 		 * 3. Dibuja cada circulo en un color aleatorio
 		 */
+		 if (arguments.length == 0) {
+		 	for (var i = 0; i <= aleatorio(100); i++) {
+		 		var x = aleatorio(400);
+		 		var y = aleatorio(200);
+		 		var radio = aleatorio(30);
+
+		 		var color = {r: aleatorio(250), g: aleatorio(250), b: aleatorio(250)};
+
+		 		dibujaCirculo(x,y,radio,color);
+		 	}
+		 }
+		 /*else {
+		 var x = arguments[0];
+		 	var y = arguments[1];
+		 	var radio;
+		 	if (arguments[2] != null) {
+		 		radio = arguments[2];
+		 	}
+		 	else {
+		 		radio = aleatorio(30);
+		 	}
+		 	var color = {r: aleatorio(250), g: aleatorio(250), b: aleatorio(250)};
+		 	dibujaCirculo(x,y,radio,color);
+		 }*/
 	};
 })();
 
