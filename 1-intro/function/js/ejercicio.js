@@ -34,7 +34,7 @@ var EJERCICIO = (function() {
 		 		var y = aleatorio(200);
 		 		var radio = aleatorio(30);
 
-		 		var color = {r: aleatorio(250), g: aleatorio(250), b: aleatorio(250)};
+		 		var color = {r: aleatorio(255), g: aleatorio(255), b: aleatorio(255)};
 
 		 		dibujaCirculo(x,y,radio,color);
 		 	}

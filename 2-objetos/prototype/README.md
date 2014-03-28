@@ -6,7 +6,7 @@ Objetos
 
 ### Prototipado de objetos
 
-El objetivo de este ejercicio es usar los conocimientos relativos a la fabriación de objetos prototipados que se discutió en el taller y al mismo tiempo tomar consciencia de una práctica bastante habitual y no muy recomendable: una mala práctica.
+El objetivo de este ejercicio es usar los conocimientos relativos a la fabricación de objetos prototipados que se discutió en el taller y al mismo tiempo tomar consciencia de una práctica bastante habitual y no muy recomendable: una mala práctica.
 
 El ejercicio constará de dos partes:
 
