@@ -48,6 +48,21 @@ var EJERCICIO = (function() {
 		 		dibujaCirculo(x,y,radio,color);
 		 	}
 		 }
+		 else {
+		 	/*
+		 	* The apply() method accepts two arguments: the value of this inside the function
+			* and an array of arguments. This second argument may be an instance of Array, but it can also be
+			* the arguments object.
+			* apply() es un método de Prototype. Llamandolo con la funcion dibujaCirculo nos permite
+			* pasarle dos tipos de argumentos, el valor de this dentro de la función y un ARRAY de ARGUMENTOS
+			*
+			* Ya que arguments es un array de elementos, podemos llamar a la función apply (prototype) de
+			* dibuja circulo
+		 	*/
+		 	for (var i = 0; i < arguments.length; i++) {
+		 		dibujaCirculo.apply(this, arguments[i]);
+		 	}
+		 }
 		 /*else {
 		 var x = arguments[0];
 		 	var y = arguments[1];
