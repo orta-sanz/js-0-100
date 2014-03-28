@@ -1,4 +1,4 @@
-String.prototype.espaciado = function () { console.log(((this.split('')).toString()).replace(/,/g,' ')) };
+String.prototype.espaciar = function () { return ((this.split('')).toString()).replace(/,/g,' ') };
 
 console.log('Esto es una prueba'.espaciar());
 
